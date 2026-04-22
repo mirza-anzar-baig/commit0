@@ -1,0 +1,21 @@
+{
+  "instance_id": "commit-0/opentelemetry-http",
+  "repo": "Rust-commit0/opentelemetry-rust",
+  "original_repo": "open-telemetry/opentelemetry-rust",
+  "base_commit": "dee1852c394c5565b83830b592a10e9b304e2f28",
+  "reference_commit": "8e95e16be60acc64b27f846598267f508b74ce5d",
+  "setup": {
+    "rust": "stable",
+    "edition": "2021",
+    "packages": "pkg-config libssl-dev",
+    "pre_install": [],
+    "install": "cargo fetch",
+    "specification": ""
+  },
+  "test": {
+    "test_cmd": "cargo test -p opentelemetry-http",
+    "test_dir": "opentelemetry-http"
+  },
+  "src_dir": "opentelemetry-http/src",
+  "language": "rust"
+}

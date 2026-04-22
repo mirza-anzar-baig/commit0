@@ -1,0 +1,11 @@
+[package]
+name = "ruststubber"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+syn = { version = "2", features = ["full", "parsing", "printing", "visit-mut"] }
+prettyplease = "0.2"
+quote = "1"
+proc-macro2 = "1"
+clap = { version = "4", features = ["derive"] }
